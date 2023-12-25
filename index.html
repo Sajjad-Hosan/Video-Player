@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video_btn"> <i class="fa fa-video"></i> </div>
+<div class="backPage">
+    <div class="right">
+        <span><i class="fa fa-minus ii"></i></span>
+        <span class="box"><i class="far fa-square ii"></i></span>
+        <span class="exit"><i class="fa fa-xmark ii"></i></span>
+    </div>
+    <div class="container">
+        <span class="lockOpen"><i class="fa fa-lock-open ii"></i></span>
+        <div class="volumeBox">
+            <input type="range" id="volInput" min="0" max="100" value="30">
+        </div>
+        <div class="birghtBox">
+            <input type="range" id="briInput" min="20" max="200" value="150">
+        </div>
+        <div class="controls">
+            <header>
+                <span class="back i i0 ii"><i class="fa fa-angle-left"></i></span>
+                <span class="more i0 ii"><i class="fa fa-angle-right"></i></span>
+                <div class="menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>            
+            </header>
+            <aside class="rightBox">
+                <span class="i1"><i class="fa fa-moon ii"></i></span>
+                <span class="i1"><i class="fa fa-sliders ii"></i></span>
+                <span class="i1"><i class="fa fa-camera ii"></i></span>
+                <span class="i1"><i class="fa fas fa-headphones ii"></i></span>
+                <span class="i1"><i class="far fa-closed-captioning ii"></i></span>
+                <span class="i1"><i class="fa fa-arrows-left-right-to-line ii"></i></span>
+                <span class="i1"><i class="fa fa-clock ii"></i></span>
+                <span class="i1"><i class="fa fa-shuffle ii"></i></span>
+                <span class="i1"><i class="fa fa-arrow-right-arrow-left ii"></i></span>
+                <span class="i1"><i class="fa fas fa-volume-mute ii"></i></span>
+            </aside>
+            <div class="title">
+                <b class="videoTitle">My First Video 1</b>
+            </div>
+            <div class="progress">
+                <div class="bar"></div>
+            </div>
+            <footer>
+                <div class="footerBox">
+                    <span class="i"><i class="fa fas fa-lock ii"></i></span>
+                    <span class="i"><i class="fa fa-list ii"></i></span>
+                    <span class="i"><i class="fa fa-volume-high ii"></i></span>
+                </div>
+                <div class="footerBox">
+                    <span class="i"><i class="fa fa-angle-left ii"></i></span>
+                    <span class="i"><i class="play fa fa-play ii"></i></span>
+                    <span class="i"><i class="fa fa-angle-right ii"></i></span>
+                </div>
+                <div class="footerBox">
+                <span class="i"><i class="fa fa-angles-left ii"></i></span>
+                <span class="i"><i class="fa fa-angles-right ii"></i></span>
+                </div>
+                <div class="footerBox">
+                <span class="i"><i class="fa fa-expand ii"></i></span>
+                <span class="i"><i class="fa fa-arrow-right-from-bracket ii"></i></span>
+                </div>
+            </footer>
+        </div>
+        <div class="rightControls">
+            <span class="ticon"><i class="fa fa-moon ii"></i></span>
+            <span class="ticon notUse"><i class=" fa fa-shuffle ii"></i></span>
+            <span class="ticon notUse"><i class="fa fa-arrow-left ii"></i></span>
+            <span class="ticon"><i class="fa fa-volume-mute ii"></i></span>
+            <span class="tico notUsen"><i class="fa fa-clock ii"></i></span>
+            <span class="ticon notUse"><i class="fa fas fa-people-arrows ii"></i></span>
+            <span class="ticon notUse"><i class="fa fa-headphones-alt ii"></i></span>
+            <span class="ticon notUse"><i class="fa fa-sliders-h ii"></i></span>
+            <span class="ticon notUse"><i class="fa fa-music ii"></i></span>
+            <span class="ticon"><i class="fa fa-tachometer-alt ii"></i></span>
+            <span class="ticon"><i class="far fa-lightbulb ii"></i></span>
+            <span class="ticon notUse"><i class="fa fa-layer-group ii"></i></span>
+            <span class="ticon notUse"><i class="fab fa-chromecast ii"></i></span>
+        </div>
+        <div class="menuBox">
+            <i class="Mxmark fa fa-caret-right ii"></i>
+            <ul>
+                <label class="mLi">
+                    <p>Video BAckground Page</p>
+                    <input type="checkbox" id="vb0">
+                </label>
+                <label>update mode!</label>
+            </ul>
+        </div>
+        <div class="listBox">
+            <span class="xmark"><i class="fa fa-angle-left ii"></i></span>
+            <ul id="listItem"><h3 class="h0Title">PlayList</h3></ul>
+        </div>
+        <select id="spreedSelection">
+            <option value="0">0.25x</option>
+            <option value="1">0.5x</option>
+            <option value="2">0.75x</option>
+            <option value="3" selected>1x</option>
+            <option value="4">1.25x</option>
+            <option value="5">1.75x</option>
+            <option value="6">2x</option>
+        </select>
+        <!-- <div class="timerBox">
+            <div class="inputBox">
+                <input type="number" id="houre" placeholder="H">
+                <input type="number" id="minute" placeholder="M">
+                <input type="number" id="second" placeholder="S">
+            </div>
+            <button id="start"><i class="fa fas fa-power-off"></i></button>
+            <button id="stop"><i class="fa fas fa-stop"></i></button>
+            <button id="reset"><i class="fa fa-rotate"></i></button>
+        </div> -->
+        <!-- next update -->
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
