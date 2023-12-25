@@ -114,7 +114,7 @@ body{
     transition: all linear .4s;
 }
 /* hover */
-.container .controls{
+.container:hover .controls{
     visibility: visible;
     opacity: 1;
 }
@@ -128,7 +128,6 @@ body{
     left: 2.5%;
     width: 95%;
     height: 40px;
-    /* background: #fff; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,7 +198,7 @@ header .menu.active0 div{ transform: translate(50px ,10px);}
     opacity: 0;
 }
 /* hover */
-.container .rightControls{
+.container:hover .rightControls{
     visibility: visible;
     opacity: 1;
 }
